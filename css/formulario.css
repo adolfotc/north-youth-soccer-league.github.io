@@ -1,0 +1,185 @@
+
+html,body{
+  font-family:'Opens Sans',helvetica;  
+  height:100%;
+  width:100%;
+  }
+
+  #padre {
+    position:relative;
+    display: inline-block;
+    background-color: rgb(216, 222, 228);
+    margin-top: 0px;
+    height: 45px;
+  }
+
+  #padre p {
+    position:relative;
+    display:inline-block;
+    font-size: 14px;
+    text-align: right;
+    padding: 2px 8px 2px 8px;
+    margin-top: 20px;
+    margin-left: 24px;
+    background-color: rgb(216, 222, 228);
+    border-radius: 2px;
+  }
+
+  .contenido{
+    width: 75%;
+    float: right;
+    position: relative;
+    margin-top: -10px;
+    padding-left: 6px;
+    opacity: .90;
+    z-index: 90;
+  }
+
+  .portada1{
+    background: url("../images/design2_image1.jpg") no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 30%;
+    width: 100% ;
+    margin-left: -5px;
+    margin-top: -30px;
+  }
+  .logo1{
+    z-index: 90;
+    position: absolute;
+    float: left;
+    margin-top: 5%;
+    margin-left: 3%;
+  }
+
+h2{
+  float: left;
+	color: #fff;
+  padding:20px;
+  text-align: left;
+  font-size: 36px;
+}
+p{
+  color:#fff;
+  font-style: normal;
+}
+
+.general{
+  background-color: rgb(247, 242, 242);
+  float:left;
+  text-align: left;
+  width: 60%;
+  margin-top: 142px;
+  margin-left: 20%;
+  padding: 10px;
+  }
+.general__color{
+    text-align: center;
+    margin-top:5px;
+    color:black;
+    font-size: 36px;
+  }
+
+  h1{
+    padding: 35px 0 0 30px;
+    color: #fff;
+  }
+
+#parrafo2{
+  margin-top:100px;
+}
+
+#parrafo1{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+h4{
+  margin-left: 10px;
+}
+
+ol{
+  list-style: none;
+}
+#mg-1 label{
+  float:left;
+  display: inline-block;
+  width:200px;
+  height: 5px;
+  position: relative;
+
+}
+
+#mg-2 label{
+  float:right;
+  display: inline-block;
+  width:200px;
+  height: 5px;
+  position: absolute;
+
+}
+
+
+#mg-1 label li{
+  padding: 5px;
+}
+
+#mg-2 li{
+  padding: 5px;
+}
+
+
+#apellido{
+  width: 35%;
+}
+#nombre{
+  width: 31%;
+  }
+#direccion{
+  width: 83%;
+}
+#ciudad{
+  width: 54%;
+}
+#cpostal{
+  width: 17%;
+}
+#nacimiento{
+  width: 31%;
+}
+#firma{
+  width: 50%;
+}
+#fecha{
+  width: 20%
+}
+#envio{
+  text-align: center;
+}
+#base p{
+  color:#000;
+}
+a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(146, 9, 32);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(0, 195, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(255, 174, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
